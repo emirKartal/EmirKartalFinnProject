@@ -1,0 +1,36 @@
+
+First of all , I would like to thank you for sending me that project which really helped me to spend enjoyable times 
+with adding new skills. 
+
+According to my solution, firstly I analyzed the remote JSON data. After my analysis , 
+I thought about parsing the data. I decided to add data to arrays. 
+Then I started project in prototype. When I work on prototype I feel more independent ,  
+I am also finding the best option and trying the new things. After I had seen the all data in the arrays , 
+I started designing the mobile application. Designing the mobile is the most difficult part for me 
+that I still feel uncomfortable. The project showed me again that I should focus on designing more. 
+After some progress in designing, I started filling collection view cells in proper way. 
+I spent more time than I planned to change the favorite icon . 
+Because when I selected one of a cell favorite icon , I noticed that some of a cell favorite icon have already been 
+selected in spite of I did not tap. But I solved that issue, thanks to the if statement. 
+As well as I wrote a comment near that if statement. I think I found a different solution about showing the favorite 
+advertisement. I defined an integer array which name is favouriteIndex. The array contains index of tapped 
+collection view cell favorite icon. Before that I was planning to define four array again for each information 
+(location, price, description, photo). After all I worked on designing to make similar my project in the pdf 
+that you sent me. 
+
+Whether my project is going to be accepted or not by your company, challenging on that project made me proud. 
+Furthermore, working on that project was an opportunity in order to see my skills again. 
+
+I think we can use rxswift for adding favorite advertisements to the collection view. 
+We can also separate the advertisements based on the ad-types in the remote JSON data before showing all of them. 
+I think, language options could have been added to the project. In my opinion when an advertisement is added the favorites 
+at least by 100 customer, 
+the mobile application should send a notification to the customers who added it in the favorites. 
+The notification’s objective is  to inform the customers about their favorite advertisement in demand.
+
+To begin with, If I had more time , I would add login screen with facebook login. 
+In addition I would want to create new screen which will open to show more details and photos  
+when the customer tap to advertisement. 
+
+
+  
