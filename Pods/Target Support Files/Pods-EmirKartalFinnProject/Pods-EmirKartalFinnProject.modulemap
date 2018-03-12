@@ -1,0 +1,6 @@
+framework module Pods_EmirKartalFinnProject {
+  umbrella header "Pods-EmirKartalFinnProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

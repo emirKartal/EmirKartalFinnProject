@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306476C7205713C900CAEC00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306476C6205713C900CAEC00 /* AppDelegate.swift */; };
+		306476CC205713C900CAEC00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306476CA205713C900CAEC00 /* Main.storyboard */; };
+		306476CE205713C900CAEC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306476CD205713C900CAEC00 /* Assets.xcassets */; };
+		306476D1205713C900CAEC00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306476CF205713C900CAEC00 /* LaunchScreen.storyboard */; };
+		30DCEFB72057174D009EDE46 /* favourite.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DCEFB42057174C009EDE46 /* favourite.png */; };
+		30DCEFB82057174D009EDE46 /* imageError.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DCEFB52057174C009EDE46 /* imageError.png */; };
+		30DCEFB92057174D009EDE46 /* notFavourite.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DCEFB62057174C009EDE46 /* notFavourite.png */; };
+		30DCEFBC2057175E009EDE46 /* AdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DCEFBB2057175E009EDE46 /* AdModel.swift */; };
+		30DCEFC0205717B5009EDE46 /* AdvertCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DCEFBE205717B5009EDE46 /* AdvertCollectionViewCell.swift */; };
+		30DCEFC1205717B5009EDE46 /* AdvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DCEFBF205717B5009EDE46 /* AdvertViewController.swift */; };
+		429270856F6670F33E159358 /* Pods_EmirKartalFinnProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94133A2DBEF6FE40AB66D17 /* Pods_EmirKartalFinnProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		306476C3205713C900CAEC00 /* EmirKartalFinnProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmirKartalFinnProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306476C6205713C900CAEC00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		306476CB205713C900CAEC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306476CD205713C900CAEC00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306476D0205713C900CAEC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		306476D2205713C900CAEC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DCEFB42057174C009EDE46 /* favourite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favourite.png; sourceTree = "<group>"; };
+		30DCEFB52057174C009EDE46 /* imageError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageError.png; sourceTree = "<group>"; };
+		30DCEFB62057174C009EDE46 /* notFavourite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notFavourite.png; sourceTree = "<group>"; };
+		30DCEFBB2057175E009EDE46 /* AdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdModel.swift; sourceTree = "<group>"; };
+		30DCEFBE205717B5009EDE46 /* AdvertCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertCollectionViewCell.swift; sourceTree = "<group>"; };
+		30DCEFBF205717B5009EDE46 /* AdvertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertViewController.swift; sourceTree = "<group>"; };
+		891D86D48567D18405DBCB19 /* Pods-EmirKartalFinnProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmirKartalFinnProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmirKartalFinnProject/Pods-EmirKartalFinnProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A94133A2DBEF6FE40AB66D17 /* Pods_EmirKartalFinnProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmirKartalFinnProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E498B0F2F6A5DFC2A7CF0A9E /* Pods-EmirKartalFinnProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmirKartalFinnProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmirKartalFinnProject/Pods-EmirKartalFinnProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306476C0205713C900CAEC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				429270856F6670F33E159358 /* Pods_EmirKartalFinnProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306476BA205713C900CAEC00 = {
+			isa = PBXGroup;
+			children = (
+				306476C5205713C900CAEC00 /* EmirKartalFinnProject */,
+				306476C4205713C900CAEC00 /* Products */,
+				4CBEB421DB627E5D690969AB /* Pods */,
+				CEBC69089F90C6C6DD5823B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		306476C4205713C900CAEC00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306476C3205713C900CAEC00 /* EmirKartalFinnProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306476C5205713C900CAEC00 /* EmirKartalFinnProject */ = {
+			isa = PBXGroup;
+			children = (
+				30DCEFBD205717B5009EDE46 /* AdvertCollectionView */,
+				30DCEFBA2057175E009EDE46 /* Model */,
+				30DCEFB32057174C009EDE46 /* Images */,
+				306476C6205713C900CAEC00 /* AppDelegate.swift */,
+				306476CA205713C900CAEC00 /* Main.storyboard */,
+				306476CD205713C900CAEC00 /* Assets.xcassets */,
+				306476CF205713C900CAEC00 /* LaunchScreen.storyboard */,
+				306476D2205713C900CAEC00 /* Info.plist */,
+			);
+			path = EmirKartalFinnProject;
+			sourceTree = "<group>";
+		};
+		30DCEFB32057174C009EDE46 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				30DCEFB42057174C009EDE46 /* favourite.png */,
+				30DCEFB52057174C009EDE46 /* imageError.png */,
+				30DCEFB62057174C009EDE46 /* notFavourite.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		30DCEFBA2057175E009EDE46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30DCEFBB2057175E009EDE46 /* AdModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30DCEFBD205717B5009EDE46 /* AdvertCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				30DCEFBE205717B5009EDE46 /* AdvertCollectionViewCell.swift */,
+				30DCEFBF205717B5009EDE46 /* AdvertViewController.swift */,
+			);
+			path = AdvertCollectionView;
+			sourceTree = "<group>";
+		};
+		4CBEB421DB627E5D690969AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				891D86D48567D18405DBCB19 /* Pods-EmirKartalFinnProject.debug.xcconfig */,
+				E498B0F2F6A5DFC2A7CF0A9E /* Pods-EmirKartalFinnProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEBC69089F90C6C6DD5823B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94133A2DBEF6FE40AB66D17 /* Pods_EmirKartalFinnProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306476C2205713C900CAEC00 /* EmirKartalFinnProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306476D5205713C900CAEC00 /* Build configuration list for PBXNativeTarget "EmirKartalFinnProject" */;
+			buildPhases = (
+				5B2EDB878BAD85015387B6E7 /* [CP] Check Pods Manifest.lock */,
+				306476BF205713C900CAEC00 /* Sources */,
+				306476C0205713C900CAEC00 /* Frameworks */,
+				306476C1205713C900CAEC00 /* Resources */,
+				99DA186DCFC1EED6BCF735B5 /* [CP] Embed Pods Frameworks */,
+				B9B5958D0A48C75CEA58D15F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmirKartalFinnProject;
+			productName = EmirKartalFinnProject;
+			productReference = 306476C3205713C900CAEC00 /* EmirKartalFinnProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306476BB205713C900CAEC00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Emir Kartal";
+				TargetAttributes = {
+					306476C2205713C900CAEC00 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 306476BE205713C900CAEC00 /* Build configuration list for PBXProject "EmirKartalFinnProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306476BA205713C900CAEC00;
+			productRefGroup = 306476C4205713C900CAEC00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306476C2205713C900CAEC00 /* EmirKartalFinnProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306476C1205713C900CAEC00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306476D1205713C900CAEC00 /* LaunchScreen.storyboard in Resources */,
+				30DCEFB72057174D009EDE46 /* favourite.png in Resources */,
+				30DCEFB82057174D009EDE46 /* imageError.png in Resources */,
+				30DCEFB92057174D009EDE46 /* notFavourite.png in Resources */,
+				306476CE205713C900CAEC00 /* Assets.xcassets in Resources */,
+				306476CC205713C900CAEC00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B2EDB878BAD85015387B6E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmirKartalFinnProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99DA186DCFC1EED6BCF735B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EmirKartalFinnProject/Pods-EmirKartalFinnProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmirKartalFinnProject/Pods-EmirKartalFinnProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B5958D0A48C75CEA58D15F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmirKartalFinnProject/Pods-EmirKartalFinnProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306476BF205713C900CAEC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30DCEFBC2057175E009EDE46 /* AdModel.swift in Sources */,
+				30DCEFC0205717B5009EDE46 /* AdvertCollectionViewCell.swift in Sources */,
+				30DCEFC1205717B5009EDE46 /* AdvertViewController.swift in Sources */,
+				306476C7205713C900CAEC00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		306476CA205713C900CAEC00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306476CB205713C900CAEC00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		306476CF205713C900CAEC00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306476D0205713C900CAEC00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		306476D3205713C900CAEC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		306476D4205713C900CAEC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306476D6205713C900CAEC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 891D86D48567D18405DBCB19 /* Pods-EmirKartalFinnProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmirKartalFinnProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emirkartal.EmirKartalFinnProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		306476D7205713C900CAEC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E498B0F2F6A5DFC2A7CF0A9E /* Pods-EmirKartalFinnProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmirKartalFinnProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emirkartal.EmirKartalFinnProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306476BE205713C900CAEC00 /* Build configuration list for PBXProject "EmirKartalFinnProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306476D3205713C900CAEC00 /* Debug */,
+				306476D4205713C900CAEC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306476D5205713C900CAEC00 /* Build configuration list for PBXNativeTarget "EmirKartalFinnProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306476D6205713C900CAEC00 /* Debug */,
+				306476D7205713C900CAEC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 306476BB205713C900CAEC00 /* Project object */;
+}
